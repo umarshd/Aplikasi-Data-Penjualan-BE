@@ -1,0 +1,64 @@
+ERROR - 2022-04-10 23:05:35 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-10 23:05:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\app\Controllers\Produks.php(24): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\CodeIgniter.php(832): App\Controllers\Produks->index()
+#6 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produks))
+#7 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#10 {main}
+ERROR - 2022-04-10 23:05:58 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-10 23:05:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\app\Controllers\Produks.php(24): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\CodeIgniter.php(832): App\Controllers\Produks->index()
+#6 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produks))
+#7 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#10 {main}
+ERROR - 2022-04-10 23:06:09 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-10 23:06:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\app\Controllers\Produks.php(24): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\CodeIgniter.php(832): App\Controllers\Produks->index()
+#6 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produks))
+#7 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#10 {main}
+ERROR - 2022-04-10 23:07:08 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-10 23:07:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\app\Controllers\Produks.php(24): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\CodeIgniter.php(832): App\Controllers\Produks->index()
+#6 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produks))
+#7 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\UmarSahid\Documents\GitHub\aplikasi-data-penjualan-be\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#10 {main}

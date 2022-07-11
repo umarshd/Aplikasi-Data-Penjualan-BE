@@ -40,4 +40,19 @@ class Validation
     //--------------------------------------------------------------------
     // Rules
     //--------------------------------------------------------------------
+
+    public $createProduct = [
+        'nama' => [
+            'rules' => 'required'
+        ],
+        'harga' => [
+            'rules' => 'required',
+        ],
+        'stok' => [
+            'rules' => 'required',
+        ],
+        'jenis_barang_id' => [
+            'rules' => 'required'
+        ]
+    ];
 }
